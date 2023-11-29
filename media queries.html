@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>media queries</title>
+	<style type="text/css">
+		.bgr{
+			background: red;
+		}
+		.bgb{
+			background: black;
+		}
+		.bggr{
+			background: gray;
+		}
+		.bgg{
+			background: green;
+		}
+		.aa{
+			height: 700px;
+			width: 100%;
+		}
+		.ab{
+			height: 700px;
+			width: 33.3%;
+		}
+		.ac{
+			height: 700px;
+			width: 33.3%;
+		}
+		.ad{
+			height: 700px;
+			width: 33.3%;
+		}
+		.fl{
+			float: left;
+		}
+		@media(max-width:500px){
+			.ab{
+			height: 700px;
+			width: 100%;
+		}
+		.ac{
+			height: 700px;
+			width: 50%;
+		}
+		.ad{
+			height: 700px;
+			width: 50%;
+		}
+		}
+	</style>
+		<body>
+<div class="aa bgr">
+<div class="ab bggr fl"></div>
+<div class="ac bgb fl"></div>
+<div class="ad bgg fl"></div>
+	
+</div>
+</body>
+</html>
